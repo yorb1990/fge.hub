@@ -1,0 +1,17 @@
+{
+    "name": "fge/hub",
+    "description": "APIs personalizadas para la validacion de token y Cvv de FGE",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ortega Yañez Brain Rafael",
+            "email": "yorb1990@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7",
+        "laravel/framework": "5.6"
+    },
+    "minimum-stability": "beta"
+}
