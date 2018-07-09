@@ -1,6 +1,6 @@
 <!doctype html>
 <head>
-  <title>Cross Storage Hub</title>
+  <title>Cliente 2</title>
 </head>
 <body>
     <script type="text/javascript" src="{{ asset('fge_tok-hub/js/LSCD/client.js') }}"></script>
@@ -10,12 +10,14 @@
 
     storage.onConnect()
     .then(function() {
-      return storage.get('key1', 'key2');
+      return storage.get('token');
     }).then(function(res) {
+      console.log(LZString.decompress(res));
       console.log(res); 
     })['catch'](function(err) {
       console.log(err);
     });
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
 </body>
 </html>
