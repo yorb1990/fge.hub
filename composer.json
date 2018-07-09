@@ -1,6 +1,6 @@
 {
     "name": "fge/hub",
-    "description": "APIs personalizadas para la validacion de token y Cvv de FGE",
+    "description": "API de guardado de tokens con ayuda de CROSS STORAGE y LZ-string",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -13,5 +13,5 @@
         "php": ">=7",
         "laravel/framework": "5.6"
     },
-    "minimum-stability": "beta"
+    "minimum-stability": "demo"
 }

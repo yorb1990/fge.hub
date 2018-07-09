@@ -18,6 +18,6 @@
       console.log(err);
     });
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js"></script>
+  <script type="text/javascript" src="{{ asset('fge_tok-hub/js/LSCD/lz-string.min.js') }}"></script>
 </body>
 </html>
